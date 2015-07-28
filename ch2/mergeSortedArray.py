@@ -21,9 +21,3 @@ class Solution:
             i=i+1
 
         return A
-
-if __name__ == '__main__':
-    a = [1,2,3, None, None]
-    b = [4,5]
-    c = Solution()
-    print c.mergeSortedArray(a,3,b,2)

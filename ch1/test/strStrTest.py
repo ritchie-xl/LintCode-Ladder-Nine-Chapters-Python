@@ -28,5 +28,15 @@ class strStrTest(unittest.TestCase):
         b ='ab'
         self.assertEqual(strStr.strStr_2(a,b),0)
 
+    def test_6(self):
+        a = 'abcdef'
+        b = 'bcd'
+        self.assertEquals(strStr.strStr_3(a,b),True)
+
+    def test_7(self):
+        a = 'abcdef'
+        b = 'bcdf'
+        self.assertEquals(strStr.strStr_3(a,b),False)
+
 if __name__ == '__main__':
     unittest.main()
