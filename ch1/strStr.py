@@ -17,7 +17,6 @@ def strStr_1(source, target):
                 if i + j + 1 == l1:
                     return -1
 
-
         return -1
 
 def strStr_2(source, target):
@@ -35,10 +34,3 @@ def strStr_2(source, target):
         if j+1 == l2:
             return i
     return -1
-
-
-a = "abcdabcdefg"
-b = 'bcd'
-
-print strStr_1(a,b)
-print strStr_2(a,b)
